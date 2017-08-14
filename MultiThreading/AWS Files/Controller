@@ -1,0 +1,60 @@
+2017-01-28T03:54:25.703Z INFO Ensure step 2 jar file s3://myawsbucket0209/WordCount.jar
+2017-01-28T03:54:25.927Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-3VWPJ0UMAGYPA/WordCount.jar WordCount.WordCount s3://myawsbucket0209/input s3://myawsbucket0209/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-2
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-3VWPJ0UMAGYPA/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  HOSTNAME=ip-172-31-3-140
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-3VWPJ0UMAGYPA
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-3VWPJ0UMAGYPA/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-3VWPJ0UMAGYPA/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-3VWPJ0UMAGYPA
+INFO ProcessRunner started child process 10935 :
+hadoop   10935  3300  0 03:54 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-3VWPJ0UMAGYPA/WordCount.jar WordCount.WordCount s3://myawsbucket0209/input s3://myawsbucket0209/output
+2017-01-28T03:54:29.966Z INFO HadoopJarStepRunner.Runner: startRun() called for s-3VWPJ0UMAGYPA Child Pid: 10935
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-3VWPJ0UM...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-3VWPJ0UM...
+INFO total process run time: 382 seconds
+2017-01-28T04:00:50.229Z INFO Step created jobs: job_1485574559853_0001
+2017-01-28T04:00:50.229Z INFO Step succeeded with exitCode 0 and took 382 seconds
+

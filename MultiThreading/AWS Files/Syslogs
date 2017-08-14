@@ -1,0 +1,75 @@
+2017-01-28 04:00:15,355 INFO org.apache.hadoop.mapreduce.Job (main):  map 92% reduce 9%
+2017-01-28 04:00:19,364 INFO org.apache.hadoop.mapreduce.Job (main):  map 93% reduce 9%
+2017-01-28 04:00:23,375 INFO org.apache.hadoop.mapreduce.Job (main):  map 94% reduce 9%
+2017-01-28 04:00:25,380 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 9%
+2017-01-28 04:00:28,386 INFO org.apache.hadoop.mapreduce.Job (main):  map 95% reduce 10%
+2017-01-28 04:00:33,397 INFO org.apache.hadoop.mapreduce.Job (main):  map 97% reduce 10%
+2017-01-28 04:00:36,403 INFO org.apache.hadoop.mapreduce.Job (main):  map 98% reduce 10%
+2017-01-28 04:00:37,409 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 33%
+2017-01-28 04:00:44,423 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 67%
+2017-01-28 04:00:46,585 INFO org.apache.hadoop.mapreduce.Job (main):  map 100% reduce 100%
+2017-01-28 04:00:47,592 INFO org.apache.hadoop.mapreduce.Job (main): Job job_1485574559853_0001 completed successfully
+2017-01-28 04:00:47,825 INFO org.apache.hadoop.mapreduce.Job (main): Counters: 56
+	File System Counters
+		FILE: Number of bytes read=6011765
+		FILE: Number of bytes written=8650602
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=2178
+		HDFS: Number of bytes written=0
+		HDFS: Number of read operations=22
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=0
+		S3: Number of bytes read=1454320186
+		S3: Number of bytes written=72815
+		S3: Number of read operations=0
+		S3: Number of large read operations=0
+		S3: Number of write operations=0
+	Job Counters 
+		Killed map tasks=1
+		Killed reduce tasks=1
+		Launched map tasks=22
+		Launched reduce tasks=3
+		Data-local map tasks=22
+		Total time spent by all maps in occupied slots (ms)=77575296
+		Total time spent by all reduces in occupied slots (ms)=21888672
+		Total time spent by all map tasks (ms)=1616152
+		Total time spent by all reduce tasks (ms)=228007
+		Total vcore-milliseconds taken by all map tasks=1616152
+		Total vcore-milliseconds taken by all reduce tasks=228007
+		Total megabyte-milliseconds taken by all map tasks=2482409472
+		Total megabyte-milliseconds taken by all reduce tasks=700437504
+	Map-Reduce Framework
+		Map input records=21907700
+		Map output records=248943500
+		Map output bytes=2418234700
+		Map output materialized bytes=1909477
+		Input split bytes=2178
+		Combine input records=248943500
+		Combine output records=232012
+		Reduce input groups=5273
+		Reduce shuffle bytes=1909477
+		Reduce input records=232012
+		Reduce output records=5273
+		Spilled Records=696036
+		Shuffled Maps =66
+		Failed Shuffles=0
+		Merged Map outputs=66
+		GC time elapsed (ms)=15915
+		CPU time spent (ms)=716320
+		Physical memory (bytes) snapshot=16758226944
+		Virtual memory (bytes) snapshot=86436724736
+		Total committed heap usage (bytes)=15450243072
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=1454320186
+	File Output Format Counters 
+		Bytes Written=72815
+
